@@ -36,7 +36,9 @@
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChineseCalendar.cs" />
     <Compile Include="DbUtil\CommandInfo.cs" />
     <Compile Include="DbUtil\DbHelperMySQL.cs" />
     <Compile Include="DbUtil\DbHelperOleDb.cs" />
@@ -54,9 +57,13 @@
     <Compile Include="DbUtil\PubConstant.cs" />
     <Compile Include="DbUtil\SQLHelper.cs" />
     <Compile Include="Db\Sqlserver\DbUtil.cs" />
+    <Compile Include="DosCommand.cs" />
+    <Compile Include="HZToPinyin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QQFormAutoXifu.cs" />
     <Compile Include="RMB.cs" />
     <Compile Include="StringPlus.cs" />
+    <Compile Include="SystemUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
