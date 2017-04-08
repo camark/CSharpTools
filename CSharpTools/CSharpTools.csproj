@@ -58,6 +58,7 @@
     <Compile Include="DbUtil\SQLHelper.cs" />
     <Compile Include="Db\Sqlserver\DbUtil.cs" />
     <Compile Include="DosCommand.cs" />
+    <Compile Include="EmailSend.cs" />
     <Compile Include="HZToPinyin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QQFormAutoXifu.cs" />
